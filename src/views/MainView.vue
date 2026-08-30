@@ -9,7 +9,7 @@
 <script setup lang="ts">
     import SideBar from '@/components/SideBar.vue';
 </script>
-<style>
+<style scoped>
     .container{
         display: flex;
     }

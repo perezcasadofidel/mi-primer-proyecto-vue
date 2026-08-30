@@ -5,11 +5,12 @@
             <li><router-link to="/">Inicio</router-link></li>
             <li><router-link to="/contador">Contador</router-link></li>
             <li><router-link to="/lista-de-tareas">Lista de Tareas</router-link></li>
+            <li><router-link to="/registro">Registro</router-link></li>
         </ul>
     </div>
 </template>
 <script setup lang="ts"></script>
-<style>
+<style scoped>
     .sidebar{
         width: 200px;
         background-color: #f0f0f0;
