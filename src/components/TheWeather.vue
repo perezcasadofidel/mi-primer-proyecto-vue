@@ -1,5 +1,5 @@
 <template>
-    <h3>{{weatherStore.temperatura}}</h3>
+    <h3>La temperatura actual es: {{weatherStore.temperatura}}</h3>
 </template>
 <script setup lang="ts">
     import { useWeather } from '@/composables/useWeather';
