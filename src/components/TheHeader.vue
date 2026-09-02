@@ -5,7 +5,7 @@
 </template>
 <script setup lang="ts">
     import TheWeather from './TheWeather.vue';
-    import { defineProps, ref, watch } from 'vue';
+    import { ref, watch } from 'vue';
 
     const props = defineProps(['mensaje']);
     const mensajeRecibido = ref(props.mensaje);
